@@ -488,13 +488,23 @@ function App() {
               </div>
             </div>
 
-            <a
-              href="mailto:lexdwardo@gmail.com?subject=Clean%20energy%20project%20review"
-              className="mt-5 flex items-center justify-center gap-2 rounded-full bg-[#31463B] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#26372f]"
-            >
-              <Mail className="h-4 w-4" strokeWidth={1.8} />
-              Send Project Brief
-            </a>
+            <div className="mt-5 grid gap-3">
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=lexdwardo%40gmail.com&su=Clean%20energy%20project%20review"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center justify-center gap-2 rounded-full bg-[#31463B] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#26372f]"
+              >
+                <Mail className="h-4 w-4" strokeWidth={1.8} />
+                Open Gmail Brief
+              </a>
+              <a
+                href="mailto:lexdwardo@gmail.com?subject=Clean%20energy%20project%20review"
+                className="text-center text-sm font-medium text-[#31463B] underline decoration-[#31463B]/25 underline-offset-4 transition hover:decoration-[#31463B]"
+              >
+                lexdwardo@gmail.com
+              </a>
+            </div>
           </div>
         </div>
       </section>
