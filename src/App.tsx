@@ -489,7 +489,7 @@ function App() {
             </div>
 
             <a
-              href="mailto:partnerships@lgpsm.energy?subject=Clean%20energy%20project%20review"
+              href="mailto:lexdwardo@gmail.com?subject=Clean%20energy%20project%20review"
               className="mt-5 flex items-center justify-center gap-2 rounded-full bg-[#31463B] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#26372f]"
             >
               <Mail className="h-4 w-4" strokeWidth={1.8} />
